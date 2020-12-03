@@ -1,6 +1,6 @@
-# easy-pie-chart
+# react-easy-pie-chart
 
-> Lightweight plugin to render simple, animated and retina optimized pie charts
+> Lightweight react component to render simple, animated and retina optimized pie charts
 
 
 ## Features
