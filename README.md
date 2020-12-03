@@ -122,6 +122,7 @@ Support for Internet Explorer 7 and 8 with [excanvas](https://code.google.com/p/
 
 
 ## Credits
-Huge thanks to [Robert Fleischmann](https://github.com/rendro) for creating the [easy-pue-chart plugin](https://github.com/rendro/easy-pie-chart)
+Huge thanks to [Robert Fleischmann](https://github.com/rendro) for creating the [easy-pie-chart plugin](https://github.com/rendro/easy-pie-chart).
+
 Thanks to [Rafal Bromirski](http://www.paranoida.com/) for designing [this dribble shot](http://drbl.in/ezuc) which inspired Robert into building the original plugin.
 
