@@ -18,8 +18,6 @@ useEffect(() => {
   }, [])
 
       return (
-      <>
         <div className="chart" data-percent={props.percent}><span>{props.percent}%</span></div>
-      </> 
     )
 }
