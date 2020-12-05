@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './EasyPieLoader.css'
+import './easypiechart.css'
 
 export const EasyPieChart = (props: {percent: number, barColor?: string, trackColor?: string, scaleColor?: unknown, lineCap?: string, lineWidth?: number, size?: number, animate?: number }) => {
   
