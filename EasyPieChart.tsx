@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './easypiechart.css'
 
-export const EasyPieChart = (props: {percent: number, barColor?: string, trackColor?: string, scaleColor?: unknown, scaleLength: number, lineCap?: string, lineWidth?: number, size?: number, animate?: number }) => {
+export const EasyPieChart = (props: {percent: number, barColor?: string, trackColor?: string, scaleColor?: unknown, scaleLength?: number, lineCap?: string, lineWidth?: number, size?: number, animate?: number }) => {
   
 useEffect(() => {
     (window as any).$(() => {
