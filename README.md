@@ -1,6 +1,6 @@
 # react-easy-pie-chart
 
-> Lightweight react component to render simple, animated and retina optimized pie charts
+> Lightweight react functional component to render simple, animated and retina optimized pie charts
 
 
 ## Features
