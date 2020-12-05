@@ -14,10 +14,21 @@
 
 
 ## Get started
-#### Installation
 
-TBA
+#### Setup
 
+Add this to your index.html
+
+```
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
+```
+
+#### Basic Usage
+
+```
+<EasyPieChart percent={50}/>
+```
 
 
 ## Options
@@ -83,30 +94,6 @@ You can pass these options to the initialize function to set a custom look and f
 
 
 
-## Callbacks
-All callbacks will only be called if `animate` is not `false`.
-
-<table>
-    <tr>
-        <th>Callback(params, ...)</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td><strong>onStart(from, to)</strong></td>
-        <td>Is called at the start of any animation.</td>
-    </tr>
-    <tr>
-        <td><strong>onStep(from, to, currentValue)</strong></td>
-        <td>Is called during animations providing the current value (the method is scoped to the context of th eplugin, so you can access the DOM element via <code>this.el</code>).</td>
-    </tr>
-    <tr>
-        <td><strong>onStop(from, to)</strong></td>
-        <td>Is called at the end of any animation.</td>
-    </tr>
-</table>
-
-
-
 ## Browser Support
 Native support
 
@@ -117,7 +104,6 @@ Native support
 * Internet Explorer 9+
 
 Support for Internet Explorer 7 and 8 with [excanvas](https://code.google.com/p/explorercanvas/wiki/Instructions) polyfill.
-
 
 
 
