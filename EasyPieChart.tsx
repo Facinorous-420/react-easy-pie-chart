@@ -8,7 +8,7 @@ useEffect(() => {
         (window as any).$('.chart').easyPieChart({
          barColor: props.barColor || "#0000FF",
          trackColor: props.trackColor || "#f2f2f2",
-         scaleColor: props.scaleColor || "#dfe0e0",
+         scaleColor: props.scaleColor || false,
          scaleLength: props.scaleLength || 5,
          lineCap: props.lineCap || "'round",
          lineWidth: props.lineWidth || 3,
